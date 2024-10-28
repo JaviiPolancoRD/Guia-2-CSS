@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propiedades CSS</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+
+    <header>
+        <center>
+        <h1>Propiedades CSS</h1>
+        <p>Descripción detallada de las propiedades CSS para estilos de texto, enlaces, imágenes, listas y tablas.</p>
+        </center>
+    </header>
+
+    <main>
+        <!-- Tema 1 - Texto -->
+        <section id="tema-texto">
+            <h2>Tema 1 - Texto</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Propiedad</th>
+                        <th>Valor Inicial</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>color</td>
+                        <td>Dependiente del navegador</td>
+                        <td>Define el color del texto. Se puede especificar con nombre de color, código hexadecimal, RGB, etc.</td>
+                    </tr>
+                    <tr>
+                        <td>font-family</td>
+                        <td>Depende del navegador</td>
+                        <td>Especifica la fuente o conjunto de fuentes para el texto.</td>
+                    </tr>
+                    <tr>
+                        <td>font-size</td>
+                        <td>medium</td>
+                        <td>Define el tamaño de la fuente. Puede ser en px, em, rem, %, etc.</td>
+                    </tr>
+                    <tr>
+                        <td>font-weight</td>
+                        <td>normal</td>
+                        <td>Controla el grosor de la fuente, con valores como normal, bold, o numéricos (100–900).</td>
+                    </tr>
+                    <tr>
+                        <td>font-style</td>
+                        <td>normal</td>
+                        <td>Define el estilo de la fuente, como normal, italic, o oblique.</td>
+                    </tr>
+                    <tr>
+                        <td>font-variant</td>
+                        <td>normal</td>
+                        <td>Cambia la apariencia del texto a small-caps o normal.</td>
+                    </tr>
+                    <tr>
+                        <td>font</td>
+                        <td>—</td>
+                        <td>Es un atajo para configurar varias propiedades de fuente en una sola línea.</td>
+                    </tr>
+                    <tr>
+                        <td>text-align</td>
+                        <td>start</td>
+                        <td>Define la alineación horizontal del texto, como left, center, right, o justify.</td>
+                    </tr>
+                    <tr>
+                        <td>line-height</td>
+                        <td>normal</td>
+                        <td>Controla el espacio entre líneas, puede ser numérico, porcentual, en px, em, etc.</td>
+                    </tr>
+                    <tr>
+                        <td>text-decoration</td>
+                        <td>none</td>
+                        <td>Añade decoraciones al texto, como underline, overline, o line-through.</td>
+                    </tr>
+                    <tr>
+                        <td>text-transform</td>
+                        <td>none</td>
+                        <td>Controla la capitalización del texto, como uppercase, lowercase, o capitalize.</td>
+                    </tr>
+                    <tr>
+                        <td>vertical-align</td>
+                        <td>baseline</td>
+                        <td>Ajusta la posición vertical del texto en relación con su línea base, como top, middle, etc.</td>
+                    </tr>
+                    <tr>
+                        <td>text-indent</td>
+                        <td>0</td>
+                        <td>Indica la sangría de la primera línea del texto en un bloque.</td>
+                    </tr>
+                    <tr>
+                        <td>letter-spacing</td>
+                        <td>normal</td>
+                        <td>Define el espaciado entre letras, puede ser en px, em, etc.</td>
+                    </tr>
+                    <tr>
+                        <td>word-spacing</td>
+                        <td>normal</td>
+                        <td>Define el espaciado entre palabras, puede ser en px, em, etc.</td>
+                    </tr>
+                    <tr>
+                        <td>white-space</td>
+                        <td>normal</td>
+                        <td>Controla cómo se maneja el espacio en blanco y el salto de línea en el texto.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Tema 2 - Enlaces -->
+        <section id="tema-enlaces">
+            <h2>Tema 2 - Enlaces</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Característica</th>
+                        <th>Propiedades</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Tamaño, Color y Decoración</td>
+                        <td>font-size, color, text-decoration</td>
+                        <td>Ajusta el tamaño, color y decoración (por ejemplo, subrayado) del enlace.</td>
+                    </tr>
+                    <tr>
+                        <td>Decoración Personalizada</td>
+                        <td>text-decoration, text-shadow</td>
+                        <td>Permite añadir sombras o efectos de subrayado, sobrelineado y tachado en enlaces.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Tema 3 - Imágenes -->
+        <section id="tema-imagenes">
+            <h2>Tema 3 - Imágenes</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Característica</th>
+                        <th>Propiedades</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Anchura y Altura</td>
+                        <td>width, height</td>
+                        <td>Define las dimensiones de la imagen.</td>
+                    </tr>
+                    <tr>
+                        <td>Eliminar el Borde</td>
+                        <td>border</td>
+                        <td>Quita el borde de la imagen, útil para imágenes dentro de etiquetas <code>&lt;a&gt;</code>.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Tema 4 - Listas -->
+        <section id="tema-listas">
+            <h2>Tema 4 - Listas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Propiedad</th>
+                        <th>Valor Inicial</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>list-style-type</td>
+                        <td>disc</td>
+                        <td>Define el tipo de marcador en listas, como circle, square, decimal, etc.</td>
+                    </tr>
+                    <tr>
+                        <td>list-style-position</td>
+                        <td>outside</td>
+                        <td>Indica si el marcador de lista se coloca dentro o fuera del contenido.</td>
+                    </tr>
+                    <tr>
+                        <td>list-style-image</td>
+                        <td>none</td>
+                        <td>Permite usar una imagen personalizada como marcador en las listas.</td>
+                    </tr>
+                    <tr>
+                        <td>list-style</td>
+                        <td>—</td>
+                        <td>Es un atajo para configurar varias propiedades de estilo de lista en una sola línea.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Tema 5 - Tablas -->
+        <section id="tema-tablas">
+            <h2>Tema 5 - Tablas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Propiedad</th>
+                        <th>Se Aplica a</th>
+                        <th>Valor Inicial</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>border-collapse</td>
+                        <td>table</td>
+                        <td>separate</td>
+                        <td>Determina si las celdas de la tabla tienen bordes separados o colapsados.</td>
+                    </tr>
+                    <tr>
+                        <td>border-spacing</td>
+                        <td>table</td>
+                        <td>0</td>
+                        <td>Define el espacio entre bordes de celdas en tablas cuando border-collapse está en separate.</td>
+                    </tr>
+                    <tr>
+                        <td>empty-cells</td>
+                        <td>table</td>
+                        <td>show</td>
+                        <td>Controla si se muestran o no las celdas vacías de una tabla.</td>
+                    </tr>
+                    <tr>
+                        <td>caption-side</td>
+                        <td>table-caption</td>
+                        <td>top</td>
+                        <td>Indica la posición del título de la tabla, ya sea en la parte superior o inferior.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+</body>
+</html>
